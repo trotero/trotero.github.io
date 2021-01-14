@@ -1,3 +1,23 @@
 body{
-	background-color:grey;
+	background-color:#181818;
+	font-family:monospace;
+}
+.barnav{
+	background-color:#1f1f1f;
+	margin:-8px;
+}
+.contenido{
+	margin-top:12px;
+	background-color:#1152b2;
+	border-radius:3px;
+	border:solid #4854ef 3px;
+}
+.boton{
+	margin-left:2px;
+	width:4%;
+	background-color:green;
+	text-align:center;
+}
+.boton:hover{
+	background-color:white;
 }
