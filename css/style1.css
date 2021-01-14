@@ -6,6 +6,25 @@ body{
 	background-color:#1f1f1f;
 	margin:-8px;
 }
+section{
+
+}
+#home:hover{
+	filter:brightness(100%);
+}
+nav{
+
+}
+.icon{
+	width: 130px;
+    height: 195px;
+	background:url("assets/icon.png") no-repeat;
+	display: inline-block;
+}
+.icon:hover{
+	background:url("assets/icon-hover.png") no-repeat;
+	
+}
 .contenido{
 	width:85%;
 	float:right;
