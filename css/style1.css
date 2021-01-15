@@ -4,27 +4,34 @@ body{
 }
 .barnav{
 	background-color:#1f1f1f;
-	margin:-8px;
+	margin-top:20px;
 }
 section{
 
 }
-#home:hover{
-	filter:brightness(100%);
-}
-nav{
 
+.nave{
+	background-color:black;
+	border:solid white 1px;
+	margin:-8px;
 }
 .icon{
-	width: 130px;
-    height: 195px;
-	background:url("assets/icon.png") no-repeat;
-	display: inline-block;
+     width: 70px;
+        height: 28px;
+        position: relative;
+        display: inline-block;
 }
-.icon:hover{
-	background:url("assets/icon-hover.png") no-repeat;
+.icon .img-top{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
 	
 }
+.icon:hover .img-top {
+        display: inline;
+    }
 .contenido{
 	width:85%;
 	float:right;
